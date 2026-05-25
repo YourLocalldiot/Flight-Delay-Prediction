@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Data and outputs
+*.csv
+*.sqlite
+*.db
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+
+# OS files
+.DS_Store
+Thumbs.db
