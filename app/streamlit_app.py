@@ -82,7 +82,6 @@ def derive_model_inputs(user_inputs: Dict[str, object]) -> Dict[str, float]:
     airport_freq = airline_freq_map.get(airline_code, 0.02)
 
     return {
-        "DepDelay": float(dep_delay),
         "CRSElapsedTime": float(crs_elapsed_time),
         "Distance": float(user_inputs["Distance"]),
         "DepHour": float(departure_hour),
